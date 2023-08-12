@@ -1,46 +1,39 @@
-# איך לתרום לפרוייקט הזה ולתרגל תרומה לקוד פתוח?
+# How to contribute to this project and practice contributing to open source?
 
-## 1. יש לפתוח אישיו
+## 1. You need to open an `issue`
 
-תבקשו לתקן את האתר ולהוסיף קובץ md עם פרטים עליכם בתוך תיקיית docs/people .
-לפני המעבר לשלב הבא יש להמתין עד שהמיינטייר של הפרוייקט יגדיר אתכם assign.
+Please request to correct the website and add an MD file with details about yourselves inside the `'docs/people'` directory. Before proceeding to the next stage, wait until the project maintainer assigns you.
 
-[מדריך באנגלית של גיטהאב לפתיחת issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue)
+[GitHub's English guide for opening an `issue`](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue)
 
+## 2. You need to `fork` the project so you can edit it
 
+[GitHub's English guide for opening a `fork`](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
 
-## 2. יש לעשות fork לפרוייקט כדי שתוכלו לערוך אותו
+## 3. You need to `clone` to your personal computer
 
-[מדריך באנגלית של גיטהאב לפתיחת fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
+[GitHub's English guide for opening a local `clone`](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
 
+## 4. Open a new `branch` and make the desired changes in it
 
-## 3. יש לעשות clone למחשב האישי שלכם.
+[GitHub's English guide for opening a `branch`](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-and-deleting-branches-within-your-repository)
 
-[מדריך באנגלית של גיטהאב לפתיחת clone מקומי](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
+## 5. After `commit`, you should perform a `push` to your personal repository.
 
-## 4. פתחו בראנץ' חדש ובצעו בו את השינויים הרצויים.
+The required commands for `commit` and `push` are:
 
-[מדריך באנגלית של גיטהאב לפתיחת בראנץ'](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-and-deleting-branches-within-your-repository)
-
-
-## 5. לאחר ביצוע commit יש לבצע push לריפו האישי שלכם.
-
-הפקודות הנדרשות ל commit ול push הן:
 ```
-git commit -m "your commit message" 
+git commit -m "your commit message"
 git push --set-upstream origin <branch-name>
 ```
-שימו לב ששם branch זה משהו שיצרתם בסעיף 4
 
-## 6. פתחו pull-request. נא לציין איזה issue אתם מעוניינים לסגור.
+**Note that the `branch` name is something you created in `section 4`.**
 
-[מדריך באנגלית של גיטהאב לפתיחת pull-request](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/working-with-your-remote-repository-on-github-or-github-enterprise/creating-an-issue-or-pull-request-from-github-desktop)
+## 6. Open a `pull request`. Please specify which issue you want to close.
 
+[A guide in English for opening a `pull request` on GitHub](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/working-with-your-remote-repository-on-github-or-github-enterprise/creating-an-issue-or-pull-request-from-github-desktop)
 
-ומה שנשאר זה שהמתחזק של הפרוייקט יאשר את ה pull-request שלכם!
-ואז תוכלו לראות את הקובץ שהוספתם בכתובת הזו באינטרנט:
-https://melodious-muffin-2be5a1.netlify.app/docs/intro/
-כשתפתחו בתפריט את people :)
+And what's left is for the project maintainer to approve your `pull request`! Then you'll be able to see the file you added at this address on the internet: https://melodious-muffin-2be5a1.netlify.app/docs/intro/ When you open the menu, look for 'people' :)
 
 # Website
 
